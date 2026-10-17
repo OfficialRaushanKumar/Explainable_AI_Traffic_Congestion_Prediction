@@ -1,0 +1,34 @@
+# Python cache / virtual environments
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Local IDE / OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large or generated data artifacts
+data/raw/
+data/processed/
+data/augmented/
+outputs/heatmaps/
+outputs/reports/
+outputs/visualizations/
+models/*.h5
+models/*.keras
+models/*.ckpt
+*.npy
+*.npz
+*.tfevents.*
+*.log
+
+# Local environment / secrets
+.env
+.env.*
+*.pem
+*.key
