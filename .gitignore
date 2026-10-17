@@ -27,6 +27,17 @@ models/*.ckpt
 *.tfevents.*
 *.log
 
+# Keep folder placeholders so empty project dirs still appear on GitHub
+!data/.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/augmented/.gitkeep
+!models/.gitkeep
+!outputs/.gitkeep
+!outputs/heatmaps/.gitkeep
+!outputs/reports/.gitkeep
+!outputs/visualizations/.gitkeep
+
 # Local environment / secrets
 .env
 .env.*
